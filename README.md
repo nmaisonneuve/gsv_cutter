@@ -16,29 +16,17 @@ OR
 - for a given visible building, finding all the panorama images where it can be observed with its associated angle of observation.
 
 
+## installation
 
-## Installation
+		$ bundle install
 
-Add this line to your application's Gemfile:
+## usage
 
-    gem 'gsv_cutter'
+List of functions / Help
+
+    $ rake -T 
 
 And then execute:
 
-    $ bundle
+    $ rake rays:*
 
-Or install it yourself as:
-
-    $ gem install gsv_cutter
-
-## Usage
-
-TODO: Write usage instructions here
-
-## Contributing
-
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
