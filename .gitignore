@@ -1,0 +1,13 @@
+*.gem
+*.rbc
+.bundle
+.config
+.yardoc
+Gemfile.lock
+doc/
+spec/reports
+test/tmp
+results/
+images/
+test/version_tmp
+tmp
