@@ -26,7 +26,7 @@ List of functions / Help
 
     $ rake -T 
 
-And then execute:
+And then execute on of the task in the namespace 'rays':
 
     $ rake rays:*
 
