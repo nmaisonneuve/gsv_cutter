@@ -1,3 +1,8 @@
+
+####
+# Check mainly the cut_pov function at line 357 and change the parameters if required
+###
+
 namespace :rays do
 
 	# Why latlng and not original_latlng
@@ -348,7 +353,9 @@ namespace :rays do
 
 	end
 
-
+####
+# MAIN CUTTING FUNCTION TO CHANGE 
+###
 def cut_pov(period_time, pov_deg, point_type)
 		require 'parallel'
 		puts " step 4 - cut images for period #{period_time}"		
@@ -364,7 +371,11 @@ def cut_pov(period_time, pov_deg, point_type)
 		facade_angle_tolerance = 10
 		distance_min = 5.0
 		distance_max = 15.0
-
+		
+		## 
+		#
+		# SQL QUERY TO CHANGE 
+		#
 		sql = %Q{
 			select pf.*, (2 * (pf.distance - #{distance_min})/(#{distance_max-distance_min}) + 4 * pf.pov_angle/#{pov_deg} + (#{facade_angle_tolerance} - abs(pf.facade_angle - 90))) as score from 
 			(select gid, c_perconst from buildings where c_perconst = #{period_time}) buildings
