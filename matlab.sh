@@ -1,0 +1,1 @@
+/Applications2/MATLAB_R2012a.app/bin/matlab -nosplash -nodesktop -r "addpath('/Users/maisonne/Documents/work/gsv_cutter/');addpath('/Users/maisonne/Documents/work/gsv_cutter/matlab/');cut_image('61Z_otucQHlftgAYlnx3Kg_zoom_3.jpg', 270, 60, 700 , 936,'projected.jpg');"

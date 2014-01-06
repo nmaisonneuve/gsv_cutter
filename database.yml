@@ -1,0 +1,8 @@
+development:
+  adapter: postgis
+  pool: 5
+  encoding: unicode
+  database: gsv_cutter
+  username: nico
+  password: astiko
+  port: 5432

@@ -1,11 +1,6 @@
-*.gem
-*.rbc
-.bundle
-.config
-.yardoc
+.DS_Store
 Gemfile.lock
 doc/
-spec/reports
 test/tmp
 results/
 images/
